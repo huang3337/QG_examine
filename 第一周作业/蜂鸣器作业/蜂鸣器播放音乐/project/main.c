@@ -53,7 +53,7 @@ void main()
 				else 
 				{
 					SpeedDivisor = 4;      // 恢复1倍速
-					CurrentNoteTimer *= 2; // 核心细节：让当前还没播完的音符立刻拉长
+					CurrentNoteTimer *= 2; // 让当前还没播完的音符立刻拉长
 				}
 			}
 			else if(KeyNum == 2) // P3_0 下一首
